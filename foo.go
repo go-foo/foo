@@ -6,9 +6,11 @@ import (
     "fmt"
 )
 
+const VERSION = "1.0.0"
+
 type Foo struct {}
 func (f *Foo) Bar() {
-    fmt.Println("bar!")
+    fmt.Println("bar! " + VERSION)
 }
 
 func NewFoo() *Foo {
