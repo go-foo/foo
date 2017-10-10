@@ -1,5 +1,6 @@
-// Copyright (AT) 2017 Bill
-// created 10 Oct, 2017
+// Copyright 2017 Bill. All rights reserved.
+// created by bill on 10 Oct, 2017
+
 package foo
 
 import (
