@@ -3,7 +3,7 @@
 package foo
 
 import (
-    "github.com/go-foo/foo/internal/log"
+    "gopkg.in/foo.v1/internal/log"
 )
 
 const VERSION = "1.0.1"
