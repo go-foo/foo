@@ -6,7 +6,7 @@ import (
     "gopkg.in/foo.v1/internal/log"
 )
 
-const VERSION = "1.0.4-alpha1"
+const VERSION = "1.0.5-alpha1"
 
 // Foo is a name, just for fun.
 type Foo struct {}
