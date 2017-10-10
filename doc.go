@@ -10,5 +10,5 @@ Below is a very simple example for usage:
     f.Bar()
   
 code above will output some text to the stdout.
-/*
+*/
 package foo // import "gopkg.in/foo.v1"
