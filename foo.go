@@ -14,7 +14,12 @@ func (f *Foo) Bar() {
     log.Println("bar!", VERSION)
 }
 
-// NewFoo returns an instance of Foo.
+// NewFoo returns an instance of Foo. For example:
+//
+//	foo := NewFoo()
+//	foo.Bar()
+//
+// the above foo will ouput some text to stdout.
 func NewFoo() *Foo {
     return &Foo{}
 }
