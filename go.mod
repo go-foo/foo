@@ -1,3 +1,3 @@
-module github.com/go-foo/foo
+module gopkg.in/foo
 
 go 1.17

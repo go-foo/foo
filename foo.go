@@ -3,15 +3,16 @@
 package foo
 
 import (
-    "gopkg.in/foo.v1/internal/log"
+	"gopkg.in/foo/internal/log"
 )
 
 const VERSION = "2.0.0"
 
 // Foo is a name, just for fun.
-type Foo struct {}
+type Foo struct{}
+
 func (f *Foo) Bar() {
-    log.Println("bar!", VERSION)
+	log.Println("bar!", VERSION)
 }
 
 // NewFoo returns an instance of Foo. For example:
@@ -21,5 +22,5 @@ func (f *Foo) Bar() {
 //
 // the above foo will ouput some text to stdout.
 func NewFoo() *Foo {
-    return &Foo{}
+	return &Foo{}
 }
