@@ -11,4 +11,4 @@ Below is a very simple example for usage:
 
 code above will output some text to the stdout.
 */
-package foo // import "gopkg.in/foo.v2"
+package foo

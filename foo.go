@@ -3,10 +3,10 @@
 package foo
 
 import (
-	"gopkg.in/foo/internal/log"
+	"github.com/go-foo/foo/v2/internal/log"
 )
 
-const VERSION = "2.0.0"
+const VERSION = "2.0.1"
 
 // Foo is a name, just for fun.
 type Foo struct{}
